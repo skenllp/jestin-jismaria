@@ -3223,6 +3223,14 @@ body.finale-particles .finale-fallback {
   opacity: .75
 }
 
+.footer-sharing {
+  margin-top: 18px;
+  font-family: var(--f-display);
+  font-weight: 300;
+  font-size: clamp(18px, 4.5vw, 24px);
+  color: #FFFFFF
+}
+
 /* ============================================================
    12 · RESPONSIVE
    ============================================================ */
