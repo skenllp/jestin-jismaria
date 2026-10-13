@@ -473,8 +473,8 @@ code {
   margin-top: 16px;
   font-family: var(--f-display);
   font-weight: 300;
-  font-size: clamp(38px, 11.5vw, 86px);
-  line-height: 1.05;
+  font-size: clamp(24px, 7vw, 68px);
+  line-height: 1.1;
   letter-spacing: .01em;
   display: flex;
   flex-direction: column;
@@ -485,17 +485,18 @@ code {
 }
 
 .landing-names .n {
-  animation: riseIn 1.6s .8s var(--ease) both
+  white-space: nowrap;
+  animation: riseIn 1.6s .8s var(--ease) both;
 }
 
 .landing-names .n:last-child {
-  animation-delay: 1.05s
+  animation-delay: 1.05s;
 }
 
 .landing-names .amp {
   font-family: var(--f-display);
   font-style: italic;
-  font-size: .44em;
+  font-size: .48em;
   color: var(--gold-lt);
   opacity: .9;
   margin: 2px 0;
@@ -3229,6 +3230,18 @@ body.finale-particles .finale-fallback {
   font-weight: 300;
   font-size: clamp(18px, 4.5vw, 24px);
   color: #FFFFFF
+}
+
+.footer-phone {
+  margin-top: 14px;
+  font-size: 12px;
+  letter-spacing: .12em;
+  color: rgba(243, 233, 214, .55)
+}
+
+.footer-phone a {
+  color: inherit;
+  text-decoration: none
 }
 
 /* ============================================================
